@@ -1,5 +1,6 @@
 import random as rdm
 
+#dictionary for questions
 question_Dictionary = {
     "What is the name of the actor of the new spider-man?": [
         'A. Tom Holland', 'B. Andrew Garfield', 'C. Tobey Maguire',
@@ -11,13 +12,14 @@ question_Dictionary = {
     ]
 }
 
+#questions and answers used
 questions = [
     "What is the name of the actor of the new spider-man?",
     "What is the name of the actor from Shang-Chi?"
 ]
 answers = ["Tom holland", "Simu Liu"]
 
-
+#main function to run trivia game
 def main():
     print('This is a trivia quiz about famous people')
     correct = 0
